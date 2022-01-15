@@ -16,7 +16,7 @@ Note:
     <pre>
     !anylog_path/AnyLog-Network/demo/operator1.al
     </pre>
-* If AnyLog is installed without a package that creates the enviornment (like Docker), the default directories can be created using the command:
+* If AnyLog is installed without a package that creates the environment (like Docker), the default directories can be created using the command:
     <pre>
     create work directories
     </pre>
@@ -216,6 +216,3 @@ get rows count where group = table
 run client () sql lsl_demo format = table "select insert_timestamp, device_name, timestamp, value from ping_sensor limit 100"
 run client () sql lsl_demo format = table "select count(*), min(value), max(value) from ping_sensor"
 </pre>
-
-
-
